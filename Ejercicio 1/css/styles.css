@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    height: 150px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}
+.fondoverde {
+    background-color: green;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+
+}
+/*
+.header-nav {
+    float: right;
+}
+*/
+.header-title {
+    color: white;
+    font-size: x-large;
+}
+.header-nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: large;
+}
+.header-nav > ul > li > a{
+    color: white;
+}
+.footer-div {
+    color: white;
+    margin: 10px auto auto 100px;
+}
+.footer-div > ul > li{
+    list-style: none;
+}
+.footer-div > ul > li > a{
+    color: darkgreen;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+}
+.main > div{
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile label{
+    padding-left: 10px;
+}
+
+.main > div > div > img{
+    width: 40px;
+    height: 40px;
+}
+.main > div > div > h4{
+    color: rgba(0, 0, 0, 0.315);
+}
+.main > div > div > a{
+    color: rgba(0, 128, 0, 0.801);
+}
+/* 
+profe
+creo un contenedor para las separaciones
+*/
