@@ -9,6 +9,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+ul {
+    list-style: none;
+}
 /* HEADER */
 h1 {
     font-size: 40px;
@@ -109,12 +112,67 @@ header ul {
 .morearticles > div{
     display: flex;
     justify-content: space-between;
-    margin: 20px auto;
+    margin: 15px auto;
+}
+.article-horizontal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    color: grey;
+}
+.article-horizontal strong{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.article-horizontal p{
+    padding: 10px 0;
+}
+.article-horizontal a{
+    color: orange;
+    display: flex;
+    justify-content: flex-end;
 }
 .categories {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+}
+.categories-title{
+    display: flex;
+    justify-self: flex-start;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin: 10px;
+    color: grey;
+    border-bottom: 1px solid #ddd;
+}
+.categories-list{
+    display: flex;
+    margin: 0 0 auto 0;
+    align-content: flex-start;
+}
+.categories-list ul{
+    list-style-type: square;
+}
+.categories-list li{
+    border-bottom: 1px dotted #ddd;
+    color: black;
+    padding: 5px;
+}
+/* FOTTER */
+footer{
+    display: flex;
+    background-color: #000000c9;
+    height: 50px;
+    padding: 0 30px;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
 }
 
 
