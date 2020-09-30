@@ -1,0 +1,48 @@
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0; }
+  
+  .navbar-dark {
+    background-color: #512DA8; }
+  
+
+    .jumbotron {
+        background-color: #9575cd;
+        color: #fff;
+        padding: 70px 30px;
+    }
+
+    .btn-reserve {
+        color: #ffffff;
+    }
+
+
+    img {
+        border-radius: 2%;
+        box-shadow: 0 0 5px #fff;
+        display: block;
+        max-width: 100%; }
+
+
+
+        
+.carousel {
+    background: #512DA8; 
+}
+
+.carousel .carousel-item {
+    height: 300px; 
+}
+
+.carousel .carousel-item img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-height: 300px; 
+}
+  
+  #carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1; }
