@@ -1,0 +1,30 @@
+h1, h2, h3 {
+    color: aqua;
+}
+/*
+* {
+    background: beige;
+}
+*/
+
+a{
+    color: violet;
+}
+
+a:hover {
+    color: red;
+}
+
+.container {
+    height: 400px;
+    background-color: cyan;
+    background-image: url(img/berserk-moon-stars-manga-giant-sword-anime-14570.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border-bottom: darkblue;
+    padding: 40px;
+}
+
+div {
+    text-align: center;
+}
