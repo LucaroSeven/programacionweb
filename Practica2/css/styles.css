@@ -1,3 +1,7 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
 body {
     padding: 50px 0px 0px 0px;
     z-index: 0; }
@@ -46,3 +50,71 @@ body {
     position: absolute;
     bottom: 0px;
     z-index: 1; }
+
+/* BODY INFO */
+.body-info{
+    margin: 60px auto;
+}
+
+.body-info-part{
+    display: flex;
+    margin: 100px auto;
+    padding-top: 120px;
+    align-items: center;
+    border-top: 1px lightgray solid;
+}
+.body-info-part > div{
+    margin: auto 30px;
+}
+.body-info-part > div span{
+    margin: auto 10px;
+}
+.part2{
+    flex-direction: row-reverse;
+}
+.body-info-part img{
+    border: 1px solid lightgray;
+    padding: 6px;
+    border-radius: 10px;
+}
+/*fotter*/
+footer{
+    background: #9575cd;
+}
+footer > div{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer-address > div{
+    display: flex;
+    flex-direction: column;
+}
+.footer-address p {
+    padding: 2px;
+    margin: 0;
+}
+
+.top-info{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    margin: 80px auto;
+}
+
+/*accordion*/
+.card-header button{
+    display: flex;
+    align-items: center;
+}
+.card-header p{
+    margin: 0 10px;
+    font-size: large;
+}

@@ -14,34 +14,43 @@
     
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-
-            <a href="#" class="navbar-brand mr-auto">
-                <img src="img/logo.png" alt="logo" height="30px" width="40px">
-            </a>
-
-            <div>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">
-                            <span class="fa fa-home fa-lg"></span>
-                            Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <span class="fa fa-info fa-lg"></span>
-                            About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <span class="fa fa-list fa-lg"></span>
-                            Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <span class="fa fa-address-card fa-lg"></span>
-                            Contact</a>
-                    </li>
-                </ul>
+            <div style="display: flex; justify-content: space-between; width: 100%;">
+                <div style="display: flex;">
+                    <a href="#" class="navbar-brand mr-auto">
+                        <img src="img/logo.png" alt="logo" height="30px" width="40px">
+                    </a>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a href="./index.html" class="nav-link">
+                                <span class="fa fa-home fa-lg"></span>
+                                Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./about.html" class="nav-link">
+                                <span class="fa fa-info fa-lg"></span>
+                                About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="fa fa-list fa-lg"></span>
+                                Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="fa fa-address-card fa-lg"></span>
+                                Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link">
+                                <span class="fa fa-sign-in fa-lg"></span>
+                                Login</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </div>
@@ -121,6 +130,79 @@
             </div>
         </div>
     </div>
+
+    <div class="container body-info">
+        <div class="body-info-part part1">
+            <img src="./img/uthappizza.png" alt="uthappizza">
+            <div>
+                <h2>Uthappizza<span class="badge badge-danger">NEW</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate at eligendi rerum doloremque odio ex aspernatur quisquam quam fuga tempore.</p>
+            </div>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+        </div>
+        <div class="body-info-part part2">
+            <img src="./img/buffet.png" alt="buffet">
+            <div>
+                <h2>Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate at eligendi rerum doloremque odio ex aspernatur quisquam quam fuga tempore.</p>
+            </div>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+        </div>
+        <div class="body-info-part part3">
+            <img src="./img/alberto.png" alt="alberto">
+            <div>
+                <h2>Alberto Somayya</h2>
+                <h4>Executive Chef</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate at eligendi rerum doloremque odio ex aspernatur quisquam quam fuga tempore.</p>
+            </div>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+        </div>
+    </div>
+
+    <footer>
+       <div class="container">
+        <div class="footer-info">
+            <nav class="footer-links">
+                <h5>Links</h5>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-address">
+                <h5>Our address</h5>
+                <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p class="fa fa-phone-square"> +52 686 3493402</p>
+                    <p class="fa fa-envelope"> mail@mail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-social">
+            <a class="btn btn-social-icon btn-twitter">
+                <span class="fa fa-twitter"></span>
+              </a>
+              <a class="btn btn-social-icon btn-facebook">
+                <span class="fa fa-facebook"></span>
+              </a>
+              <a class="btn btn-social-icon btn-google">
+                <span class="fa fa-google"></span>
+              </a>
+              <a class="btn btn-social-icon btn-linkedin">
+                <span class="fa fa-linkedin"></span>
+              </a>
+        </div>
+       </div>
+        <div style="color: white; display: flex; justify-content: center;">
+            <p>Copyright</p>
+        </div>
+    </footer>
+
+    
         
       <!-- links de los js -->
 		<script src="node_modules/jquery/dist/jquery.min.js"></script>
