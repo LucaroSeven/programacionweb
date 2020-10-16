@@ -118,3 +118,52 @@ footer > div{
     margin: 0 10px;
     font-size: large;
 }
+
+/* MODAL */
+.modal-header{
+    background-color: #512DA8;
+    color: white;
+    border: none;
+}
+.modal-body{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #9575cd;
+    border: none;
+    
+}
+.modal-footer{
+    background-color: #9575cd;
+    border: none;
+}
+.modal-reserve{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+input[type='radio'] { 
+    transform: scale(1.5);
+    margin: 0 10px;
+}
+/* CONTACT PAGE */
+.border-container{
+    padding-bottom: 75px; 
+    border-bottom: 2px solid lightgray;
+    margin-top: 100px;
+}
+.locationInformation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.feedback td{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback input[type='text']{
+    width: 100%;
+}
+.feedback input{
+    height: 50px;
+}

@@ -36,7 +36,7 @@
                                 Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="./contact.html" class="nav-link">
                                 <span class="fa fa-address-card fa-lg"></span>
                                 Contact</a>
                         </li>
@@ -44,8 +44,8 @@
                 </div>
                 <div>
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a href="./index.html" class="nav-link">
+                        <li class="nav-item" style="cursor: pointer;">
+                            <a data-toggle="modal" data-target="#modalLogin" class="nav-link">
                                 <span class="fa fa-sign-in fa-lg"></span>
                                 Login</a>
                         </li>
@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="col-6 col-sm-3 align-self-center">
-                    <a href="#" class="btn btn-warning btn-reserve">
+                    <a data-toggle="modal" data-target="#reserveModal" class="btn btn-warning btn-reserve">
                         Reserve Table
                     </a>
                 </div>
@@ -158,7 +158,84 @@
             <h2>Lorem ipsum dolor sit amet.</h2>
         </div>
     </div>
-
+    <!-- MODAL LOGIN -->
+  <!-- Modal -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input type="email" name="" id="" placeholder="Enter Email">
+          <input type="password" style="margin-left: 10px;" placeholder="Password">
+          <div><input type="checkbox" style="margin: 0 10px;">Remember Me</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END MODAL LOGIN -->
+  <!-- RESERVE MODAL  -->
+  <div class="modal fade" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="reserveModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="reserveModalLabel">Reserve Table</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modal-reserve">
+            <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <th scope="row">Number of Guests</th>
+                    <td>
+                        <input type="radio" name="guest" id="">1
+                        <input type="radio" name="guest" id="">2
+                        <input type="radio" name="guest" id="">3
+                        <input type="radio" name="guest" id="">4
+                        <input type="radio" name="guest" id="">5
+                        <input type="radio" name="guest" id="">6
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Section</th>
+                    <td>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn active btn-success">
+                              <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-Smoking
+                            </label>
+                            <label class="btn btn-danger">
+                              <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                            </label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Date and time</th>
+                    <td>
+                        <input type="date" name="" id="">
+                        <input type="time" name="" id="">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary">Reserve</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END RESERVE MODAL -->
     <footer>
        <div class="container">
         <div class="footer-info">

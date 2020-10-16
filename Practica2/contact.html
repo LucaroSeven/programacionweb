@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Contact</title> 
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; width: 100%;">
+                <div style="display: flex;">
+                    <a href="#" class="navbar-brand mr-auto">
+                        <img src="img/logo.png" alt="logo" height="30px" width="40px">
+                    </a>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link">
+                                <span class="fa fa-home fa-lg"></span>
+                                Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./about.html" class="nav-link">
+                                <span class="fa fa-info fa-lg"></span>
+                                About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="fa fa-list fa-lg"></span>
+                                Menu</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="./contact.html" class="nav-link">
+                                <span class="fa fa-address-card fa-lg"></span>
+                                Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-sm-6">
+                    <h1>Ristorante con Fusion</h1>
+                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                </div>
+
+                <div class="col-6 col-sm-3 align-self-center">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+
+                <div class="col-6 col-sm-3 align-self-center">
+                    <a data-toggle="modal" data-target="#reserveModal" class="btn btn-warning btn-reserve">
+                        Reserve Table
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+          </ol>
+        </nav>
+        <h3 style="border-bottom: 1px solid lightgrey; padding-bottom: 14px;">Contact Us</h3>
+    </div>
+    <div class="container border-container">
+        <h3>Location information</h3>
+        <div class="locationInformation">
+            <div class="footer-address">
+                <h4>Our address</h4>
+                <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p class="fa fa-phone-square"> +52 686 3493402</p>
+                    <p class="fa fa-envelope"> mail@mail.com</p>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons" style="margin-top: 10px;">
+                        <label class="btn btn-primary active">
+                          <input type="radio" name="options" id="option1" autocomplete="off" checked> <p class="fa fa-phone-square"> Call</p>
+                        </label>
+                        <label class="btn btn-info">
+                          <input type="radio" name="options" id="option2" autocomplete="off"> <p class="fa fa-skype"> Skype</p>
+                        </label>
+                        <label class="btn btn-success">
+                          <input type="radio" name="options" id="option3" autocomplete="off"> <p class="fa fa-envelope"> Email</p>
+                        </label>
+                      </div>
+                </div>
+            </div>
+            <div>
+                <h4>Map of our location</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container border-container feedback">
+        <h3>Send us your Feedback</h3>
+        <table class="table table-borderless">
+            <tbody>
+              <tr>
+                <th scope="row">First Name</th>
+                <td>
+                    <input type="text" placeholder="First Name">
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Last Name</th>
+                <td>
+                    <input type="text" placeholder="Last Name">
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Contact tel.</th>
+                <td>
+                    <input type="number" placeholder="Area code" style="width: 25%;">
+                    <input type="number" placeholder="Tel. Number" style="width: 70%;">
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Email</th>
+                <td>
+                    <input type="email" placeholder="Email" style="width: 100%;">
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>
+                    <div style="display: flex; align-items: center;"><input type="checkbox">May we contact you?</div>
+                    <select style="width: 50%;">
+                        <option value="1">Telefono</option>
+                        <option value="2">Correo</option>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Your Feedback</th>
+                <td>
+                    <textarea name="" id="" cols="115" rows="10"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>
+                    <button type="submit" class="btn btn-primary">Send Feedback</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        
+    </div>
+    <footer>
+        <div class="container">
+         <div class="footer-info">
+             <nav class="footer-links">
+                 <h5>Links</h5>
+                 <ul>
+                     <li><a href="./index.html">Home</a></li>
+                     <li><a href="./about.html">About</a></li>
+                     <li><a href="#">Menu</a></li>
+                     <li><a href="#">Contact</a></li>
+                 </ul>
+             </nav>
+             <div class="footer-address">
+                 <h5>Our address</h5>
+                 <div>
+                     <p>Lorem ipsum dolor sit amet.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur.</p>
+                     <p>Lorem, ipsum.</p>
+                     <p class="fa fa-phone-square"> +52 686 3493402</p>
+                     <p class="fa fa-envelope"> mail@mail.com</p>
+                 </div>
+             </div>
+         </div>
+         <div class="footer-social">
+             <a class="btn btn-social-icon btn-twitter">
+                 <span class="fa fa-twitter"></span>
+               </a>
+               <a class="btn btn-social-icon btn-facebook">
+                 <span class="fa fa-facebook"></span>
+               </a>
+               <a class="btn btn-social-icon btn-google">
+                 <span class="fa fa-google"></span>
+               </a>
+               <a class="btn btn-social-icon btn-linkedin">
+                 <span class="fa fa-linkedin"></span>
+               </a>
+         </div>
+        </div>
+         <div style="color: white; display: flex; justify-content: center;">
+             <p>Copyright</p>
+         </div>
+     </footer>
+        <!-- links de los js -->
+          <script src="node_modules/jquery/dist/jquery.min.js"></script>
+          <!-- <script src="node_modules/popper.js/dist/umd/popper.min.js"></script> -->
+          <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+          <script src="js/scripts.js">
+  
+        </script>
+
+</body>
+</html>
