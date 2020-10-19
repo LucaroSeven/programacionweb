@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles2.css">
+
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <!-- <div>
         <label for="">Article Name: </label>
         <input type="text" name="" id="inputArticle">
         <button onclick="saveArticle();">Save</button>
@@ -16,13 +19,33 @@
 
             </ul>
         </div>
+    </div> -->
+    <div class="container">
+        <label for="">Make: </label>
+        <input type="text" name="" id="inputMake">
+        <label for="">Model: </label>
+        <input type="text" name="" id="inputModel">
+        <label for="">Year: </label>
+        <input type="number" name="" id="inputYear">
     </div>
-
-    //Pedir 3 campos: make model year
-    //Boton que diga Add y que llame a una funcion
-    //Validar que no este vacio
+    <div class="container">
+        <button type="submit" onclick="add();">Add</button>
+        <button onclick="clearInput();">Clear</button>
+        <button onclick="deleteAll();">Delete All</button>
+    </div>
+    <div class="container">
+        <table id="table" class="table table-bordered">
+            <tr>
+                <th scope="col">Make</th>
+                <th scope="col">Model</th>
+                <th scope="col">Year</th>
+            </tr>
+        </table>
+    </div>
 
 
     <script src="js/scripts2.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
