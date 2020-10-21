@@ -87,7 +87,7 @@ square(7) //49
 
 //timeout
 let functionTimeOut = (interval) => {
-    setTimeout(()=>console.log(`${interva} miliseconds later`), interval)
+    setTimeout(()=>console.log(`${interval} miliseconds later`), interval)
 }
 
 //
