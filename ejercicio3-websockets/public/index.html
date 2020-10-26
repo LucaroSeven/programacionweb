@@ -3,19 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebScokets</title>
+    <title>WebSockets</title>
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div id="messeges">
+    <h1>WebSockets</h1>
+
+    <div class="chatbox">
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <h3 class="boxTitle">Chat</h3>
+            <div id="messages" class="boxBody">
+
+            </div>
+            
+            <br/>
+
+            <form onsubmit="return addMessage(this)" style="width: 600px; display: flex; justify-content: space-between; align-items: flex-start;">
+                <input type="text" id="username" placeholder="Type username">
+                <textarea name="textarea" rows="10" cols="40" id="text"></textarea>
+
+                <input type="submit" value="Send" id="btnSend" style="height: 60px;">
+            </form>
+        </div>
+        <div>
+            <h3 class="boxTitle">Usernames</h3>
+            <div id="users" class="boxBody">
+
+            </div>
+        </div>
 
     </div>
 
-    <form onsubmit="return addMessages();">
-        <input type="text" id="username" placeholder="Type username">
-        <input type="text" id="text" placeholder="Type something">
-    </form>
-    
     <script src="/socket.io/socket.io.js"></script>
-    <script src="./js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
