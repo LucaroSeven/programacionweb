@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webservices</title>
+</head>
+<body>
+    <h1>Webservices</h1>
+
+    <div>
+        <h1>PERSONS</h1>
+        <div id="persons">
+    
+        </div>
+    
+        <br/>
+    
+        <form onsubmit="return addPerson(this)">
+            <input type="text" id="name" placeholder="Type name">
+            <input type="text" id="lastname" placeholder="Type lastname">
+    
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <div>
+        <h1>CARS</h1>
+        <div id="cars">
+    
+        </div>
+    
+        <br/>
+    
+        <form onsubmit="return addCar(this)">
+            <input type="text" id="make" placeholder="Type Make">
+            <input type="text" id="model" placeholder="Type Model">
+            <input type="number" id="year" placeholder="Type Year">
+    
+            <input type="submit" value="Send">
+        </form>
+        <!-- 
+            1) Listado de carros
+            2) Agregar carros (make[text], model[text], year[number])
+            3) Servicio web (/cars) para leer (readFile) carros del archivo cars.json
+            4) Servicio web (/addcar) para agregar (writeFile) carros al archivo cars.json
+            5) Validar que llenen los 3 campos.
+         -->
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
