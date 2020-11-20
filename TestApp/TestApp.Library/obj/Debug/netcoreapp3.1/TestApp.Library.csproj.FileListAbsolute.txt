@@ -22,3 +22,15 @@ C:\Users\PC\Desktop\git\profesor\programacionweb\TestApp\TestApp.Library\obj\Deb
 C:\Users\PC\Desktop\git\profesor\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.dll
 C:\Users\PC\Desktop\git\profesor\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.pdb
 C:\Users\PC\Desktop\git\profesor\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.genruntimeconfig.cache
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\bin\Debug\netcoreapp3.1\TestApp.Library.deps.json
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\bin\Debug\netcoreapp3.1\TestApp.Library.runtimeconfig.json
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\bin\Debug\netcoreapp3.1\TestApp.Library.runtimeconfig.dev.json
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\bin\Debug\netcoreapp3.1\TestApp.Library.dll
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\bin\Debug\netcoreapp3.1\TestApp.Library.pdb
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.AssemblyInfo.cs
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.dll
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.pdb
+C:\Users\PC\Desktop\git\programacionweb\TestApp\TestApp.Library\obj\Debug\netcoreapp3.1\TestApp.Library.genruntimeconfig.cache
