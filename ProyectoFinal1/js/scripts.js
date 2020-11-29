@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 init();
 async function init() {
-    debugger;
     moves = 0;
     setMoves();
     actionText.innerHTML = "Click a card"
