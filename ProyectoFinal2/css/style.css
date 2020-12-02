@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: #333333;
+    color: white;
+}
+
+.game{
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active{
+    background-color: orange;
+}
+
+/* PLAYERS */
+
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.player-one{
+    grid-column: 1;
+}
+.player-one-scorebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+.player-one-currentbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+    margin-top: 50px;
+}
+.player-one-score{
+    margin: 0;
+}
+.player-one-current{
+    margin: 0;
+}
+
+
+.player-two{
+    grid-column: 3;
+}
+.player-two-scorebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+.player-two-currentbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+    margin-top: 50px;
+}
+.player-two-score{
+    margin: 0;
+}
+.player-two-current{
+    margin: 0;
+}
+
+/* DICES */
+
+.dices{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dice-one{
+    width: 112px;
+    height: 112px;
+    margin: 10px;
+    background-color: #222;
+}
+.dice-two{
+    width: 112px;
+    height: 112px;
+    margin: 10px;
+    background-color: #222;
+}
+
+/* CONTROLS */
+.controls{
+    margin: 50px 0;
+}
