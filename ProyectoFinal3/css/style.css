@@ -1,0 +1,71 @@
+body{
+    background-color: #222222;
+    margin: 0;
+    color: orange;
+}
+
+a{
+    color: unset;
+}
+a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: orange;
+    font-family: sans-serif;
+
+    border-color: orange;
+    border-style: groove;
+    border-width: 2px;
+    border-bottom-right-radius: 15px;
+}
+
+.navigation{
+    color: orange;
+    width: 400px;
+}
+
+.navigation > .navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.jumbotron{
+    background-image: url("/img/servidor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron  .container{
+    background: rgba(13, 14, 13, 0.8)
+}
+
+.portafolio-image > img{
+    width: 200px;
+    height: 200px;
+}
+
+.portafolio-item{
+    margin: 100px 0;
+    padding-bottom: 30px;
+    border-bottom: gray solid 3px;
+}

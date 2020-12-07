@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Carrion | Software Developer</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="nav navbar-dark navbar-expand-sm">
+            <div class="logo">
+                <a href="/">Luis Carrion</a>
+            </div>
+            <div class="navigation">
+                <ul class="navbar-nav mr-auto">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="#aboutme">Acerca de mí</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">¡Hola!</h1>
+          <p class="lead">
+                Soy un estudiante de la Universidad Politécnica de Baja California, cursando la carrera de Tecnologias de la Información.
+                Mis materias favoritas son la Programación Orientada a Objetos y Redes.
+          </p>
+        </div>
+    </div>
+
+    <div id="aboutme" class="container aboutme">
+        <div class="row row-header justify-content-center">
+            <h1>Acerca de mí</h1>
+        </div>
+        <div>
+            <p>
+                Mi nombre es Luis Carrion, soy estudiante cursando el séptimo cuatrimestre de 10.
+                Me apasiona mucho los temas que tengan que ver con servidores y seguridad informatica, nunca
+                me canso de aprender mas, y realmente me gustaria dedicarme a eso en un futuro.
+            </p>
+            <p>
+                Desde la secundaria me gustaron todos los temas relacionados con equipos de computo,
+                y desde entonces es que llevo estudiando todo lo relacionado.
+            </p>
+            <p>
+                Aún me falta mucho por aprender, y siempre estoy ansioso de aprender algo nuevo.
+            </p>
+        </div>
+    </div>
+
+    <div id="portafolio" class="container portafolio">
+        <div class="row row-header justify-content-center">
+            <h1>Portafolio</h1>
+        </div>
+        <div class="portafolio-item" style="display: flex; flex-direction: row-reverse;">
+            <div class="col-6">
+                <h3>Memorama</h2>
+                <h5>HTML, CSS, Javascript</h3>
+                <div>
+                    <p>
+                        Mi primer juego creado con HTML, CSS Y Javascript. Es un simple juego
+                        de memorizar cartas para encontrar su par. El objetivo del juego es encontrar
+                        todas las parejas de cartas.
+                    </p>
+                </div>
+                <div class="btn btn-warning"><a target="_blank" href="https://github.com/LuisCarrion-source/programacionweb/tree/master/ProyectoFinal1">View Code</a></div>
+            </div>
+            <div class="col-6 portafolio-image">
+                <img src="img/memorama.PNG" alt="">
+            </div>
+        </div>
+        <div class="portafolio-item" style="display: flex;">
+            <div class="col-6">
+                <h3>Dice Game</h2>
+                <h5>HTML, CSS, Javascript</h3>
+                <div>
+                    <p>
+                        Mi primer juego de dos jugadores. Es un juego de dados,
+                        donde se acumula puntos tirando un par de dados. Se les da la 
+                        opción de guardar los puntos acumulados o seguir tirando.
+                        La gracia esta en que si en cada dado sale el mismo numero, se pierde
+                        los puntos acumulados no guardados y pasa turno. El primero en 
+                        guadar 100 puntos gana.
+                    </p>
+                </div>
+                <div class="btn btn-warning"><a target="_blank" href="https://github.com/LuisCarrion-source/programacionweb/tree/master/ProyectoFinal2">View Code</a></div>
+            </div>
+            <div class="col-6 portafolio-image" style="display: flex; justify-content: flex-end;">
+                <img src="img/dicegame.PNG" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="contact" class="container contact">
+            <div class="row row-header justify-content-center">
+                <h1>Contacto</h1>
+            </div>
+            <div class="footer-social" style="display: flex; justify-content: center; background-color: orange;">
+                <a target="_blank" href="https://github.com/LuisCarrion-source" class="btn">
+                 <span class="fa fa-github"></span>
+               </a>
+               <a href="mailto:luiscarrionrdz@gmail.com" class="btn">
+                 <span class="fa fa-envelope"></span>
+               </a>
+               <a target="_blank" href="https://steamcommunity.com/id/Lucaro7x/" class="btn">
+                 <span class="fa fa-steam"></span>
+               </a>
+               <a target="_blank" href="https://www.linkedin.com/in/luis-carrion-rodriguez-8469181aa/" class="btn">
+                 <span class="fa fa-linkedin"></span>
+               </a>
+         </div>
+    </div>
+        <div id="credits" class="container credits">
+            <div class="col-12 d-flex justify-content-center mt-3 credits-text">
+                
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/scripts.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
